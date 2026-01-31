@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/farms', farmRoutes);
 app.use('/api/equipment', equipmentRoutes);
-app.use('/api/user', userRoutes);
+app.use('/api/users', userRoutes);
 app.use('/api/booklets', bookletRoutes);
 
 // Health check
